@@ -1,7 +1,6 @@
 import random
 
 def choose_word():
-    # A list of words for the game
     words = ['python', 'hangman', 'developer', 'programming', 'computer']
     return random.choice(words)
 
